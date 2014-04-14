@@ -1,4 +1,4 @@
-<!--
+<<!--
    rhd_DEgs.html
    my css fluid grid
    
@@ -572,6 +572,10 @@ rhd_DEgs classes styling
 	float:right;
 	
 }
+.span4{
+width:80px;
+height;15px;	
+}
 </style>
   <!-- !Modernizr - All other JS at bottom
     <script src="js/modernizr-1.5.min.js"></script> -->
@@ -615,7 +619,7 @@ rhd_DEgs classes styling
 <section>
 		
 
-<p>This is my css grid <strong>rhd_DEgs</strong></p>
+<p>This is my css fluid grid <strong>rhd_DEgs</strong></p>
 
 <div style="max-width: 400px" >
 	<figure>
@@ -631,15 +635,16 @@ size 1000x1200 px) and added the designated css class names.</p>
       <p>Although as a digital developer (including web developer and designer) I have not done much work with grids 
 and fluid or adaptive or responsive, mobile first designs and creating this my own fluid grid system 
 is my introduction to these areas of web design and development.</p>
-<p>Fluid frameworks need to be made using  PERCENTAGE container widths to resize proprtionally. 
+<p>Fluid frameworks need to be made using  PERCENTAGE container widths to resize proportionally. 
 Responsive mobile first design also need image sizes to be represented as percentages and the 
 use of CSS3 media queries completes the basics of responsive web design.</p>
-<p>Responsive web design is a specialist subject.</p>
+<p>Responsive web design is a specialist subject and one of importance as the number of people using smart phones and
+ devices other than desktop and laptop screens to view webpages, is rising quickly.</p>
 <p>I made this grid after briefly looking at many grids, both fixed and flexible 
 (eg the classic 960gs and Melody from James Dinsdale (@molovo) and Unsemantic etc etc).</p>
 <p>Some basic maths is involved in calculating percentages and allowing for gutters (margins/padding) 
 in the grid design. There are several tutorials on this topic on the net.</p>
-<p>The navigation menu I am using here is my first attempt at a responsive menu and is largely based 
+<p>The navigation menu I am using here, is my first attempt at a responsive menu and is largely based 
 on a tutorial at 
 <a href="http://webdesignerwall.com/tutorials/css-responsive-navigation-menu" target="_blank">webdesignerwall.com.</a>
 </p>	
@@ -654,8 +659,17 @@ on a tutorial at
 		<p>It is one part of this classic 2 column webpage 
 		layout that consists of header,nav.article,section,aside and footer elements.</p>
 		<p>It is designated as rhd_DEgs CSS class .onethirdrtg</p>
-		<p>On a small screen (320x480) this should display below the section content.</p>
+		<p>All HTML5 elements (eg the header, nav main content section,aside and footer) resize fluidly 
+		as the browser/view shrinks or expands.</p>
 		<p>To the left is the HTML5 section main content area.</p>
+		<p>Below is another GIMP grid I made for web design (12 columns in a 1000x1200 px size image with margins).</p>
+		<figure>
+		<img src="rpd12colGimpGrid_1000x1200_50pc.png" alt="rhd_DE 1000x 1200 12 col web design grid">
+      <figcaption>rhd_DE 12 Column web design grid 1000x1200 px</figcaption>
+      </figure>
+      <p>With these 2 grids, it is possible to design fluid and also on to responsive, mobile first web sites. 
+      They are very suitable for those new to fluid and responsive web design,
+       to provide an idea with which to custom build their own grids and CSS frameworks.</p>
 </aside>		
 </div>
 	
@@ -668,7 +682,7 @@ on a tutorial at
      <div class="container">
 		<div class="grid fullwidthg">		
   <!-- And add a copyright notice.-->
-<p>Sample WebPage by rhd_DE <a href="http://de.richard-dickinson.com/ " target="_blank">rhd_DigitalEnterprises</a> &copy; 
+<p>rhd_Degs Fluid CSS Grid WebPage by rhd_DE <a href="http://de.richard-dickinson.com/ " target="_blank">rhd_DigitalEnterprises</a> &copy; 
 Copyright 2011 -
 <script>
     now = new Date
@@ -678,8 +692,15 @@ Copyright 2011 -
     document.write(theYear)
 </script>
 </p>
+
+
+<div class="span4">
+	<a href="MY WEBSITE LINK" target="_blank"><img src="valid_html5.png" style='width:100%;' border="0" alt="W3C HTML% valid"></a>
+</div>
+
 </div>
 </div>
+
 </footer>
   
 </body>
