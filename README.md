@@ -11,8 +11,8 @@ Detail for rhd_DEgs v1.0
 ========================
 
 This is my first attempt at a fluid css grid.
-I have made my own grid and css classes in my attempt to bring a 
-fluid css grid with responsive mobile first web design. 
+I have made my own grid and css classes in my attempt to create a 
+fluid css grid with fluid and responsive, mobile first web design. 
 Basically this relies on a combination of a fluid grid with media 
 queries and image percentage scaling.
 
