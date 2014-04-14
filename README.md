@@ -7,8 +7,8 @@ MON 14/0414
 
 This is my first "real" GitHub repository rhd_DEgs. 
 
-rhd_DEgs 
-========
+Detail for rhd_DEgs 
+===================
 
 This is my first attempt at a fluid css grid.
 I have made my own grid and css classes in my attempt to bring a 
