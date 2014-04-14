@@ -25,7 +25,7 @@ Usage
 =====
 
 Currently I only have added a basic html5 file eg rhd_DEgs.html.
-I plan to add the image and other files necessary for this page to work properly very soon.
+I plan to add the images and other files necessary for this page to work properly very soon.
 
 Development
 ===========
